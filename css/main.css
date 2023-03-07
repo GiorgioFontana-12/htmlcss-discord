@@ -21,6 +21,16 @@
     padding-bottom: 25px;
 }
 
+.hTestoMedio{
+    padding-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
 .pTestoGrande {
     font-size: 22px;
 }
@@ -199,6 +209,18 @@ h1{
     margin: 50px auto;
     text-align: center;
 }
+
+.bottoneBlu {
+    font-size: 16px;
+    font-weight: 600;
+    height: 70px;
+    width: 280px;
+    background-color: #8EA1E1;
+    border:none;
+    border-radius: 35px;
+    color: white;
+}
+
 
 .sfondoNeroChiaro {
     background-color: #23272A;
