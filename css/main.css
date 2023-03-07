@@ -15,6 +15,24 @@
 
 
 
+.hTestoGrande {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.pTestoGrande {
+    font-size: 22px;
+}
+
+.paddingDestra{
+    padding-right: 80px;
+}
+
+.paddSinistra{
+    padding-left: 35px;
+}
+
 header {
     padding-top:1.5rem ;
     background-image: url(../img/jumbo.png);
@@ -143,13 +161,14 @@ h1{
 }
 
 .flexItAzz {
-    background-color: #ADD8E6;
+
     width: calc(100% / 5 * 3);
     min-height: 500px;
 }
 
 .flexItRosa {
-    background-color: #FFC0CB;
+    padding-top: 32px;
+    
     width: calc(100% / 5 * 2);
     min-height: 500px;
 }
@@ -165,21 +184,20 @@ h1{
 }
 
 .flexItAzzScuro {
-    background-color: #1E90FF;
     width: calc(100% / 5 * 3);
     min-height: 500px;
 }
 
 .sfondoGrigio {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 
 
 }
 .rettangoloVerde {
-    background-color: #228B22 ;
     width: 1200px;
     min-height: 900px;
     margin: 50px auto;
+    text-align: center;
 }
 
 .sfondoNeroChiaro {
@@ -227,4 +245,11 @@ footer button {
     background-color:  #FFB6C1;
     height: 1.5rem;
     
+}
+
+
+.bigImm {
+
+    width: 100%;
+
 }
