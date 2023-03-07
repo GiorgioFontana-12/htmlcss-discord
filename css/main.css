@@ -334,3 +334,15 @@ hr {
 .salvaHr {
     background-color: #23272A;
 }
+
+.wave {
+    color: #F6F6F6;
+    width: 100%;
+    background-color: white;
+}
+
+.waveReverse {
+    fill: white;
+    width: 100%;
+    background-color: #F6F6F6;
+}
