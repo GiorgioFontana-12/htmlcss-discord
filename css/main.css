@@ -2,16 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.textWhite {
+    color: white;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+
 header {
-    background-color: #ADD8E6;
     padding-top:1.5rem ;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 588px;
 }
 
 .selezione {
     margin: 0 auto;
-    background-color:#DAA520 ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,13 +37,37 @@ header {
 
 }
 
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header button {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    border: solid white;
+    border-radius: 20px;
+    height: 40px ;
+    width: 80px ;
+}
+
+
+.flexLink {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexButton {
+    display: flex;
+    justify-content: center;
+}
+
 .textDestra {
     text-align: right;
 }
 
-.dash {
-    border: dashed black 2px;
-}
 
 .width1 {
     width: calc((100% / 5) * 1);
@@ -44,7 +81,6 @@ header {
 }
 
 .rettBlu {
-    background-color:#00008B ;
     padding: 50px;
     min-height: 500px ;
     display: flex;
@@ -57,9 +93,40 @@ header {
 }
 
 .rettRosa {
-    background-color: #EE82EE;
     width: 900px ;
     min-height: 400px ;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.pHead {
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+
+}
+
+#scarica {
+    background-color: white;
+    height: 70px;
+    border-radius: 35px;
+    width: 280px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+
+}
+
+#apri {
+    background-color:  #222;
+    color: white;
+    height: 70px;
+    width: 320px;
+    border: solid #222;
+    border-radius: 35px;
+    font-size: 1.2rem;
 }
 
 .sfondoBianco {
@@ -137,7 +204,6 @@ header {
     background-color:#20B2AA ;
     height: 580px;
     width: calc(100% / 4);
-    border: dashed white;
 
 }
 
@@ -157,7 +223,7 @@ header {
     align-items: flex-end;
 }
 
-button {
+footer button {
     background-color:  #FFB6C1;
     height: 1.5rem;
     
