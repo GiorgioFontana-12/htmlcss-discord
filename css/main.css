@@ -247,6 +247,7 @@ h1{
 }
 
 .foot {
+    padding-top: 2rem;
     height: 80px;
     width: 1200px;
     display: flex;
@@ -318,4 +319,18 @@ h4 {
     border-radius: 20px;
     background-color: #8EA1E1;
 
+}
+
+.boxHr {
+    margin: 0 auto;
+    height:1px ;
+    width: 1200px;
+}
+
+hr {
+    border-top: 1px solid #8EA1E1;
+}
+
+.salvaHr {
+    background-color: #23272A;
 }
