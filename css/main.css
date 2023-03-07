@@ -227,7 +227,6 @@ h1{
 }
 
 .rettangoloRosaSalmone {
-    background-color:#F08080;
     width: 360px;
     min-height: 580px;
 }
@@ -241,14 +240,13 @@ h1{
 }
 
 .flexItemAzzurro {
-    background-color:#20B2AA ;
     height: 580px;
     width: calc(100% / 4);
+    padding-top: 60px;
 
 }
 
 .foot {
-    background-color: #7FFFD4;
     height: 80px;
     width: 1200px;
     display: flex;
@@ -261,6 +259,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-bottom: 50px;
 }
 
 footer button {
@@ -273,5 +272,50 @@ footer button {
 .bigImm {
 
     width: 100%;
+
+}
+
+.hTestoMedioBlu {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #8EA1E1;
+
+}
+
+span {
+    padding-bottom: 25px;
+}
+
+.immaginePiccola {
+    height: 1rem;
+}
+
+.paddingB {
+    padding-bottom: 25px;
+}
+
+i {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.flexItemAzzurro > * {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+h4 {
+    color:#8EA1E1;
+}
+
+.bottoneBluPiccolo {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #8EA1E1;
 
 }
